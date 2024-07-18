@@ -1,0 +1,104 @@
+/* Ini file css */
+
+/* Section left */
+.main-title {
+    text-align: center;
+}
+/* Main*/
+main {
+    display: flex;
+    justify-content: space-around;
+}
+/* Main content*/
+.main-content {
+    flex: 1;
+    padding: 12px;
+}
+/* Form */
+form {
+    background-color: #f2f3f5;
+    padding: 12px;
+    border-radius: 8px;
+}
+/* Input title */
+.input-title { 
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Button */
+.button {
+    background: #5cc0de;
+    border: 2px solid aqua;
+    height: 32px;
+    border-radius: 8px;   
+}
+/* Button submit */
+.submit {
+    background-color: #5cc0de;
+    border: 2px solid aqua;
+}
+/* Button reset */
+.reset {
+    background-color: #5cc0de;
+    border: 2px solid aqua;
+}
+/* Input number */
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+/* Input number */
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+/* Section result */
+.result-section {
+    text-align-last: center;
+    border-radius: 8px;
+    background-color: #f2f3f5;
+    padding: 12px;
+}
+
+/*Table category BMI*/
+.tabel-bmi {
+    width: 100%;
+    text-align: center;
+     
+    tr, td {
+        background-color: #f2f3f5; color: rgb(0, 0, 0);
+        border: solid #ddd;
+        padding: 5px;
+    }
+      
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white;
+    }
+
+}
+
+/* Article */
+.article {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Article content */
+.article-content {
+    text-align: center;
+    color: #244fdd;
+}
+
+/* Responsive */
+@media only screen and (max-width: 425px) {
+    main {
+        flex-direction: column;
+    }
+}
