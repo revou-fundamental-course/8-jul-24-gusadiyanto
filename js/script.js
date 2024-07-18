@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const umur = parseFloat(usia.value);
         let kategori = '';
         let jenisKelamin = document.querySelector("input[name=gender]:checked")?.value;
-        
+
         if (isNaN(tbdn) || isNaN(bbdn) || isNaN(umur) || tbdn > 3 || bbdn > 200 || jenisKelamin==undefined) {
             alert('Pastikan semua isian terisi dengan benar!');
             return;
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         jenisKelaminOutputElement.textContent = '';
     }
     
-    // Event sumbit dan seset
+    // Event submit dan reset
     document.getElementById('bmi-form').addEventListener('submit', hitungBmi);
     document.getElementById('reset-button').addEventListener('click', resetForm);
 });
